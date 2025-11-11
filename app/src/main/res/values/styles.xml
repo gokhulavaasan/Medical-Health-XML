@@ -5,5 +5,30 @@
         <item name="boxCornerRadiusTopEnd">12dp</item>
         <item name="boxCornerRadiusBottomStart">12dp</item>
         <item name="boxCornerRadiusBottomEnd">12dp</item>
+
+<!--         Background and stroke colors-->
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+        <item name="boxStrokeColor">@android:color/transparent</item>
+        <item name="boxBackgroundColor">@color/tertiary</item>
+
+        <item name="hintEnabled">false</item>
+
+
+        <!-- Hint and text appearance -->
+        <item name="android:textColorHint">@color/onTertiary</item>
+        <item name="hintTextColor">@color/onTertiary</item>
+        <item name="android:textColor">@color/onTertiary</item>
+
     </style>
+
+    <!-- Style for the EditText inside -->
+    <style name="RoundedTextInputEditText" parent="">
+        <item name="android:textColor">@color/onTertiary</item>
+        <item name="android:textColorHint">@color/primary</item>
+    </style>
+
+
+    
+
 </resources>
